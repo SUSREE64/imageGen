@@ -1,4 +1,4 @@
-const token = "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";
+
 const imageBox_el = document.getElementById("imageBox");
 const promptText_el = document.getElementById("promptText");
 const btn_gen_el = document.getElementById("btn-gen");
@@ -80,4 +80,5 @@ btn_download_el.addEventListener("click", (event) => {
         alert("No image available for download.");
     }
 });
+
 
