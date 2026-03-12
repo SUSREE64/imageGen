@@ -18,7 +18,7 @@ const modelLinks = ["https://api-inference.huggingface.co/models/Shakker-Labs/FL
 async function query(data) {
   const response = await fetch(
     
-    modelLinks[3],
+    modelLinks[1],
     // "https://api-inference.huggingface.co/models/glif/90s-anime-art",
     {
       headers: {
@@ -80,3 +80,4 @@ btn_download_el.addEventListener("click", (event) => {
         alert("No image available for download.");
     }
 });
+
